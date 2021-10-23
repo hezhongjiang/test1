@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh echo 123
+                make sso
             }
         }
         stage('Test') {
