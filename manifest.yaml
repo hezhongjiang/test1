@@ -1,0 +1,14 @@
+apiVersion: ami.globalsphare.com/v1alpha1
+kind: Application
+metadata:
+  name: sso
+spec:
+  components:
+    - name: sso
+      type: webservice
+      properties:
+        image: harbor1.zlibs.com/island/sso:alpha
+        port: 3000
+        cpu: "100m"
+      traits:
+        - type: ingress
