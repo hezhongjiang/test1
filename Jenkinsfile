@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "branch: 111${env.BRANCH_NAME}"
+                echo "branch: 11222"
             }
         }
         stage('Test') {
