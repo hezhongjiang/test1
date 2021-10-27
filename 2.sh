@@ -1,2 +1,4 @@
 #!/bin/bash
-echo "2.sh11"
+echo "2.sh11fdfdf"
+
+#fsdfasdf
