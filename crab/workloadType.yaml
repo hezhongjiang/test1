@@ -1,0 +1,30 @@
+apiVersion: aam.globalsphare.com/v1alpha1
+kind: WorkloadType
+metadata:
+  name: storage
+spec:
+  schematic:
+    cue:
+      template: |
+  paramter:
+    size: 1Gi
+
+---
+apiVersion: aam.globalsphare.com/v1alpha1
+kind: WorkloadVendor
+metadata:
+  name: s3
+spec:
+  schematic:
+    cue:
+      template: |
+
+---
+apiVersion: aam.globalsphare.com/v1alpha1
+kind: WorkloadVendor
+metadata:
+  name: aws
+spec:
+  schematic:
+    cue:
+      template: |
