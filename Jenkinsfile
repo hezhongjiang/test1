@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "branch: 333"
+                echo ref  is ${ref}
             }
         }
         stage('Test') {
