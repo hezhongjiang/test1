@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo "branch: 1122大ww点dddd的2"
+                echo "branch: 333"
             }
         }
         stage('Test') {
